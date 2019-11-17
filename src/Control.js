@@ -8,7 +8,7 @@ const Control = ({
   classNameWrapper
 }) => {
 
-  const HEX_REGEX = /^#[a-f0-9]{0,6}|^$/
+  const HEX_REGEX = /^#[a-f0-9]{0,6}$|^$/
 
   const validateChange = (input) => HEX_REGEX.test(input) ? onChange(input) : false
 
