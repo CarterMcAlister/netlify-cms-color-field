@@ -1,16 +1,14 @@
 {
-  "name": "netlify-cms-widget-starter",
-  "description": "A boilerplate for creating Netlify CMS widgets.",
+  "name": "netlify-cms-color-field",
+  "description": "Input field that only accepts hex colors and shows color preview.",
   "keywords": [
     "netlify",
     "netlify-cms",
     "cms",
-    "widget",
-    "starter",
-    "boilerplate"
+    "color"
   ],
-  "version": "0.0.1",
-  "homepage": "https://github.com/netlify/netlify-cms-widget-starter",
+  "version": "1.0.0",
+  "homepage": "https://github.com/CarterMcAlister/netlify-cms-color-field",
   "license": "MIT",
   "main": "dist/main.js",
   "devDependencies": {
